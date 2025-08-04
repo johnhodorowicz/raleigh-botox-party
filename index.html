@@ -18,7 +18,7 @@
       "@type": "LocalBusiness",
       "name": "Raleigh Botox Party",
       "description": "Professional in-home Botox parties and skincare events in the Raleigh Triangle area",
-      "image": "https://raleighbotoxparty.com/hero-botox-party.png",
+      "image": "https://raleighbotoxparty.com/hero-botox-party.webp",
       "url": "https://raleighbotoxparty.com",
       "telephone": "+1-919-667-5795",
       "address": {
@@ -57,22 +57,31 @@
     </script>
 
     <!-- Google Fonts -->
+    <!-- Preconnect to improve load time -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Preload the stylesheet -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" />
+
+    <!-- Asynchronous load -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap">
+    </noscript>
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
     <!-- Preload hero image -->    
-    <link rel="preload" as="image" href="/hero-botox-party.png" />
+    <link rel="preload" as="image" href="/hero-botox-party.webp" />
 
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="Raleigh Botox Party | Host In-Home Botox Events in Triangle NC" />
     <meta property="og:description" content="Professional Botox parties in Raleigh, Durham & Cary. Host gets free treatment! Licensed professionals bring the spa experience to your home." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://raleighbotoxparty.com/" />
-    <meta property="og:image" content="https://raleighbotoxparty.com/hero-botox-party.png" />
+    <meta property="og:image" content="https://raleighbotoxparty.com/hero-botox-party.webp" />
     <meta property="og:image:alt" content="Botox party setup in a modern Raleigh home" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -82,8 +91,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Raleigh Botox Party | Host In-Home Botox Events" />
     <meta name="twitter:description" content="Professional Botox parties in Raleigh Triangle area." />
-    <meta name="twitter:image" content="https://raleighbotoxparty.com/hero-botox-party.png" />
-    <script type="module" crossorigin src="/assets/index-DQHhQ5Kb.js"></script>
+    <meta name="twitter:image" content="https://raleighbotoxparty.com/hero-botox-party.webp" />
+    <script type="module" crossorigin src="/assets/index-6Ss0qGAh.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-D-uKxin3.css">
   </head>
 
